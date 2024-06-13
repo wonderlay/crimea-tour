@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: url(../images/map1.png), no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page {
+    overflow: hidden;
+}
+
+/* Panorama */
+.panorama_holder {
+    margin: 20px 20px 0 20px;
+}
+
+.panorama {
+    position: relative;
+}
+
+.panorama_vid {
+    position: relative;
+    width: 100%;
+    height: 630px;
+    border-radius: 20px;
+}
+
+.panorama_backtitle {
+    color:#eee;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+}
+
+.panorama_backtext {
+    color: #eee;
+    font-size: 12px;
+    position: absolute;
+    top: 14px;
+}
+
+.panorama_block {
+    position: relative;
+    border-radius: 20px;
+    background: url(../images/panorama-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 999;
+    height: 280px;
+    bottom: 0;
+
+    display: flex;
+}
+
+.panorama_text {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    max-width: 1500px;
+    font-size: 35px;
+    color: #FFFFFF;
+    background: #000000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: .3rem transparent;
+}
+
+.panorama_image {
+    position: absolute;
+    left: 1718px;
+    right: 200px;
+    bottom: 91px;
+}
+
+.panorama_img {
+    max-width: 260px;
+    max-height: 260px;
+}
+
+.panorama_button {
+    position: absolute;
+    z-index: 999;
+    right: 75px;
+    bottom: 45px;
+}
+
+.panorama_btn {
+    text-decoration: none;
+    color: #38f988;
+    background: #52A9D6;
+    border: 3px solid #590B0B;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+
+    transition: background .5s ease;
+}
+
+.panorama_btn:hover {
+    background: #590B0B;
+}
+
+.panorama-forward {
+    position: absolute;
+    z-index: 999;
+    right: 874px;
+    bottom: 21px;
+}
+
+.panorama-for {
+    text-decoration: none;
+    color: #38f988;
+    background: #52A9D6;
+    border: 3px solid #590B0B;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+
+    transition: background .5s ease;
+}
+
+.panorama-for:hover {
+    background: #590B0B;
+}

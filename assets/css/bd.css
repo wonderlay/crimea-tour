@@ -1,0 +1,162 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(../images/map1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding: 15px 0;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav_item {
+    margin-right: 20px;
+    text-decoration: none;
+    background: #52A9D6;
+    color: #38f988;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 3px solid #590B0B;
+
+    transition: background .5s ease;
+}
+
+.nav_item:hover {
+    background: #590B0B;
+}
+
+.catalog {
+    margin: 20px 0;
+}
+
+.catalog_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.cityForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.city {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #000000;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+#tours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tour {
+    background: #52A9D6;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.tour:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tour_holder {
+    margin-bottom: 15px;
+}
+
+.tour_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.tour_desc,
+.tour_price,
+.tour_duration,
+.tour_highlights {
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.tour_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.tour_button {
+    margin: 5px;
+}
+
+.tour_btn {
+    cursor: pointer;
+    background: #52A9D6;
+    color: #38f988;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 3px solid #590B0B;
+    transition: background 0.3s ease;
+}
+
+.tour_btn:hover {
+    background: #590B0B;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination_button {
+    background: #52A9D6;
+    color: #38f988;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 3px solid #590B0B;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.pagination_button:hover {
+    background: #590B0B;
+}

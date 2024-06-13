@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background: url(../images/map1.png), no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page {
+    overflow: hidden;
+}
+
+/* header */
+.header-top {
+    background: url(../images/flag.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo {
+    position: absolute;
+    z-index: 1;
+}
+
+.header-text {
+    position: relative;
+    z-index: 2;
+    font-size: 68px;
+    color: #FFFFFF;
+    background: #000000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: .4rem transparent;
+}
+
+/* main */
+.main {
+    margin-bottom: 20px;
+}
+
+.main-holder {
+    width: 1400px;
+    background: url(../images/ramka-inf.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.main-text {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.main-txt {
+    background: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.main-btn {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #38f988;
+    background: #52A9D6;
+    border: 3px solid #590B0B;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+
+    transition: background .5s ease;
+}
+
+.main-btn:hover {
+    background: #590B0B;
+}
